@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/util
+                           http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!-- set 方法注入属性 -->
+    <bean id="book" class="org.demon.spring5.Book">
+        <property name="bName" value="海贼王"></property>
+        <property name="bAuthor" value="尾田"></property>
+    </bean>
+
+    <!-- 有参构造注入属性 -->
+    <bean id="order" class="org.demon.spring5.Order">
+        <constructor-arg index="0" value="苹果电脑"></constructor-arg>
+        <constructor-arg index="1" value="China"></constructor-arg>
+    </bean>
+
+    <!-- p 空间属性注入 -->
+    <bean id="book2" class="org.demon.spring5.Book" p:bName="谁杀了她" p:bAuthor="东野圭吾"></bean>
+
+    <!-- null -->
+    <bean id="book3" class="org.demon.spring5.Book">
+        <property name="bName">
+            <value><![CDATA[<<山海经>>]]></value>
+        </property>
+        <property name="bAuthor">
+            <null/>
+        </property>
+    </bean>
+
+    <!-- 外部 bean 注入 -->
+    <bean id="userService" class="org.demon.spring5.service.UserService">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+    <bean id="userDao" class="org.demon.spring5.dao.UserDao"></bean>
+
+    <!-- 内部 bean 注入 -->
+    <bean id="emp" class="org.demon.spring5.bean.Emp">
+        <property name="eName" value="Demon"></property>
+        <property name="gender" value="Female"></property>
+        <property name="dept">
+            <bean id="dept" class="org.demon.spring5.bean.Dept">
+                <property name="dName" value="IT"></property>
+            </bean>
+        </property>
+    </bean>
+
+    <!-- 级联赋值 -->
+    <bean id="emp2" class="org.demon.spring5.bean.Emp">
+        <property name="eName" value="Hebe"></property>
+        <property name="gender" value="female"></property>
+        <property name="dept" ref="dept2"></property>
+        <property name="dept.dName" value="烘焙组"></property>
+    </bean>
+    <bean id="dept2" class="org.demon.spring5.bean.Dept"></bean>
+
+    <!-- 集合类型属性注入 -->
+    <bean id="stu" class="org.demon.spring5.bean.Stu">
+        <property name="courses">
+            <list>
+                <ref bean="course"></ref>
+                <ref bean="course2"></ref>
+                <ref bean="course3"></ref>
+            </list>
+        </property>
+        <property name="list">
+            <list>
+                <value>Selina</value>
+                <value>Hebe</value>
+                <value>Ella</value>
+            </list>
+        </property>
+        <property name="maps">
+            <map>
+                <entry key="Selina" value="任家萱"></entry>
+                <entry key="Hebe" value="田馥甄"></entry>
+                <entry key="Ella" value="陈嘉桦"></entry>
+            </map>
+        </property>
+        <property name="sets">
+            <set>
+                <value>MySQL</value>
+                <value>Oracle</value>
+            </set>
+        </property>
+    </bean>
+    <bean id="course" class="org.demon.spring5.bean.Course">
+        <property name="cName" value="计算机组成原理"></property>
+    </bean>
+    <bean id="course2" class="org.demon.spring5.bean.Course">
+        <property name="cName" value="计算机网络"></property>
+    </bean>
+    <bean id="course3" class="org.demon.spring5.bean.Course">
+        <property name="cName" value="C语言"></property>
+    </bean>
+
+    <!-- 提取集合 -->
+    <util:list id="nameList">
+        <value>Selina</value>
+        <value>Hebe</value>
+        <value>Ella</value>
+    </util:list>
+    <bean id="stu2" class="org.demon.spring5.bean.Stu">
+        <property name="list" ref="nameList"></property>
+    </bean>
+
+</beans>

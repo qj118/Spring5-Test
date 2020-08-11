@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb59b174-50f0-423d-94fe-520f3b6348a8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\SDK\Maven\apache-maven-3.6.2\repository" />
+        <option name="mavenHome" value="D:/SDK/Maven/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\SDK\Maven\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ftcJO2bArZcCDYpwuMjyZxTzds" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/spring-expression-5.2.8.RELEASE.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15234375" />
+    <property name="project.structure.side.proportion" value="0.44815668" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\MyProjects\IDEAProjects\Spring5_Test\xml_ioc\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MyProjects\IDEAProjects\Spring5_Test\hello_world\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestSpring5.testEmp (1)">
+    <configuration name="TestSpring5.testBook (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xml_ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demon.spring5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.demon.spring5.test" />
+      <option name="MAIN_CLASS_NAME" value="org.demon.spring5.test.TestSpring5" />
+      <option name="METHOD_NAME" value="testBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5.testEmp (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xml_ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demon.spring5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.demon.spring5.test" />
+      <option name="MAIN_CLASS_NAME" value="org.demon.spring5.test.TestSpring5" />
+      <option name="METHOD_NAME" value="testEmp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5.testEmp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello_world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demon.spring5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.demon.spring5.test" />
+      <option name="MAIN_CLASS_NAME" value="org.demon.spring5.test.TestSpring5" />
+      <option name="METHOD_NAME" value="testEmp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5.testHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello_world" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSpring5" />
+      <option name="METHOD_NAME" value="testHello" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5.testStu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello_world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demon.spring5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.demon.spring5.test" />
+      <option name="MAIN_CLASS_NAME" value="org.demon.spring5.test.TestSpring5" />
+      <option name="METHOD_NAME" value="testStu" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestSpring5.testEmp (1)" />
+        <item itemvalue="JUnit.TestSpring5.testBook (1)" />
+        <item itemvalue="JUnit.TestSpring5.testHello" />
+        <item itemvalue="JUnit.TestSpring5.testStu" />
+        <item itemvalue="JUnit.TestSpring5.testEmp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb59b174-50f0-423d-94fe-520f3b6348a8" name="Default Changelist" comment="" />
+      <created>1597040757034</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597040757034</updated>
+      <workItem from="1597040761098" duration="2054000" />
+      <workItem from="1597043034958" duration="5555000" />
+      <workItem from="1597103667215" duration="15788000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2685" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1597127317933">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597127317933" />
+    <state x="2554" y="260" key="FileChooserDialogImpl" timestamp="1597129211333">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2554" y="260" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597129211333" />
+    <state width="1613" height="328" key="GridCell.Tab.0.bottom" timestamp="1597129789647">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1613" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597129789647" />
+    <state width="1613" height="328" key="GridCell.Tab.0.center" timestamp="1597129789647">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1613" height="328" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597129789647" />
+    <state width="1613" height="328" key="GridCell.Tab.0.left" timestamp="1597129789647">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1613" height="328" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597129789647" />
+    <state width="1613" height="328" key="GridCell.Tab.0.right" timestamp="1597129789647">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1613" height="328" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597129789647" />
+    <state x="2360" y="94" key="SettingsEditor" timestamp="1597129214797">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2360" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597129214797" />
+    <state x="2578" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597129645667">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2578" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597129645667" />
+    <state x="2254" y="130" key="new project wizard" timestamp="1597129172699">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2254" y="130" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597129172699" />
+  </component>
+</project>
