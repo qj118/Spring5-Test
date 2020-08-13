@@ -11,8 +11,11 @@ Spring5 学习的练习笔记。
 
 ### xml-ioc 
 
-xml 方式进行 ioc 管理
+xml 方式实现 IOC 对 Bean 的管理。
 + bean2.xml - factorybean 和生命周期测试。
 + bean3.xml - 自动装配测试。
 + bean4.xml - 外部属性文件的引入测试。
 
+### annotation-ioc
+
+注解方式实现 IOC 对 Bean 的管理。
