@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean 的自动装配 -->
+    <bean id="emp" class="org.demon.spring5.bean.Emp" autowire="byName">
+        <property name="eName" value="JIA"></property>
+        <property name="gender" value="female"></property>
+    </bean>
+    <bean id="dept" class="org.demon.spring5.bean.Dept">
+        <property name="dName" value="文娱部"></property>
+    </bean>
+</beans>

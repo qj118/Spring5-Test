@@ -5,7 +5,14 @@ Spring5 学习的练习笔记。
 
 ## 文件结构
 
-- hello-world 
+### hello-world 
+
 简单的 spring 架构实现
-- xml-ioc 
+
+### xml-ioc 
+
 xml 方式进行 ioc 管理
++ bean2.xml - factorybean 和生命周期测试。
++ bean3.xml - 自动装配测试。
++ bean4.xml - 外部属性文件的引入测试。
+

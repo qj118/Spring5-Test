@@ -45,4 +45,11 @@ public class TestSpring5 {
         Stu stu = context.getBean("stu2", Stu.class);
         System.out.println(stu);
     }
+
+    @Test
+    public void testAutowire(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean3.xml");
+        Emp emp = context.getBean("emp", Emp.class);
+        System.out.println(emp);
+    }
 }

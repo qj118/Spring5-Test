@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Factory Bean -->
+    <bean id="myBean" class="org.demon.spring5.factorybean.MyBean"></bean>
+
+    <!-- Bean 的生命周期 -->
+    <bean id="deptBean" class="org.demon.spring5.bean.Dept" init-method="initMethod" destroy-method="destroyMethod">
+        <property name="dName" value="人事部"></property>
+    </bean>
+    <!-- 配置后置处理器，拦截所有配置文件中创建的 bean -->
+    <bean id="myBeanPost" class="org.demon.spring5.factorybean.MyBeanPost"></bean>
+</beans>
