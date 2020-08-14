@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- 创建对象 -->
+    <bean id="book2" class="org.demon.spring5.xml.Book2"></bean>
+    <bean id="book2Proxy" class="org.demon.spring5.xml.Book2Proxy"></bean>
+
+    <aop:config>
+        <!-- 配置切入点 -->
+        <aop:pointcut id="pointCut" expression="execution(* org.demon.spring5.xml.Book2.buy(..))"/>
+        <!-- 配置切面，即增强类（代理类） -->
+        <aop:aspect ref="book2Proxy">
+            <!-- 配置具体的增强方法，作用到切点上 -->
+            <aop:before method="beforeBuy" pointcut-ref="pointCut"/>
+        </aop:aspect>
+    </aop:config>
+
+</beans>
