@@ -5,18 +5,18 @@ Spring5 学习的练习笔记。
 
 ## 文件结构
 
-### hello-world 
+### hello_world 
 
 简单的 spring 架构实现
 
-### xml-ioc 
+### xml_ioc 
 
 xml 方式实现 IOC 对 Bean 的管理。
 + bean2.xml - factorybean 和生命周期测试。
 + bean3.xml - 自动装配测试。
 + bean4.xml - 外部属性文件的引入测试。
 
-### annotation-ioc
+### annotation_ioc
 
 注解方式实现 IOC 对 Bean 的管理。
 
@@ -25,3 +25,7 @@ xml 方式实现 IOC 对 Bean 的管理。
 面向切面编程简单体验。
 - bean.xml 在注解方式实现 AOP操作时的包扫描配置以及开启 AspectJ 自动代理。
 - bean2.xml xml配置方式实现 AOP 操作。
+
+### jdbc_template
+
+JdbcTemplate 对数据库增删改查的基本使用测试。
