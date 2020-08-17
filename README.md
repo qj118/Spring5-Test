@@ -29,3 +29,9 @@ xml 方式实现 IOC 对 Bean 的管理。
 ### jdbc_template
 
 JdbcTemplate 对数据库增删改查的基本使用测试。
+
+### transaction
+
+Spring 相关事务管理操作测试。
+- ApplicationContext.xml 注解方式实现事务管理；
+- SpringConfig.xml xml配置方式实现事务管理。
