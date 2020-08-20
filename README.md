@@ -35,3 +35,13 @@ JdbcTemplate 对数据库增删改查的基本使用测试。
 Spring 相关事务管理操作测试。
 - ApplicationContext.xml 注解方式实现事务管理；
 - SpringConfig.xml xml配置方式实现事务管理。
+
+### spring5_new
+
+Spring5 新功能测试
+
+### webflux
+
+Spring webflux 模块的简单实用（该模块是 Spring boot）
+- controller 包是注解编程模型
+- handler 包是函数式编程模型，Server 类启动后，可启动 Client 类进行测试
