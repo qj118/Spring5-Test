@@ -10,7 +10,7 @@
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
         <property name="username" value="root"/>
-        <property name="password" value="01180405"/>
+        <property name="password" value="1234567"/>
         <property name="url" value="jdbc:mysql:///test?serverTimezone=Asia/Shanghai"/>
     </bean>
 

@@ -32,7 +32,7 @@ public class BookHandler {
     }
 
     public Mono<ServerResponse> saveBook(ServerRequest request){
-
+        // 需要保证 Book 类中有无参构造方法
         Mono<Book> bookMono = request.bodyToMono(Book.class);
 
         return ServerResponse.ok().build(this.bookService.saveBookInfo(bookMono));

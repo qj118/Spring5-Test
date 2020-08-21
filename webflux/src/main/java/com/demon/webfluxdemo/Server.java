@@ -40,12 +40,16 @@ public class Server {
 
     // 创建服务器完成适配
     public void createReactorServer(){
-        // 适配
+        /**
+         * 1. 获取所有路由
+         * 2. 用路由初始化 HttpHandler
+         * 3. 用 HttpHandler 初始化适配器
+         */
         RouterFunction<ServerResponse> route = routingFunction();
         HttpHandler httpHandler = toHttpHandler(route);
         ReactorHttpHandlerAdapter adapter = new ReactorHttpHandlerAdapter(httpHandler);
 
-        // 创建服务器
+        // 用适配器初始化服务器
         HttpServer httpServer = HttpServer.create();
         httpServer.handle(adapter).bindNow();
     }

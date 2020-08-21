@@ -33,6 +33,7 @@ public class BookServiceImpl implements BookService {
 
     @Override
     public Mono<Void> saveBookInfo(Mono<Book> bookMono) {
+        // doOnNext 即取出 Mono 中封装的数据，进行进一步的操作
         return bookMono.doOnNext( book -> {
             int id = books.size() + 1;
             books.put(id, book);
